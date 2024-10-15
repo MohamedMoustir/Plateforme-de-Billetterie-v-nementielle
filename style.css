@@ -1,13 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+@font-face {
+    font-family: moustir;
+    src: url("dmsans.ttf");
+}
 body{
     margin: 0;
     padding: 0;
-    font-family: "Prompt", sans-serif;
+  
     color: white;
-    height: 400px;
+    height: 10px;
+    font-family: moustir;
 }
 *{
     box-sizing:border-box;
@@ -32,6 +36,7 @@ body{
     
     
 }
+
 .continer-head{
    display: flex;
    justify-content: space-around;
@@ -187,7 +192,7 @@ border-radius: 50px;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     gap:13px 90px ;
-    margin-top: 60px;
+    margin-top: 80px;
     position: relative;
 }
 .continer-items img{
@@ -214,7 +219,7 @@ border-radius: 50px;
 }
 .item1-text{
     line-height: 20px;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 .apr{
@@ -265,9 +270,10 @@ border-radius: 50px;
 }
 .logo-you{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 50px;
+    margin: 50px ;
+   
 }
 
 .continer-bolg{
