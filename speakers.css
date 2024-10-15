@@ -77,3 +77,13 @@ body{
  transform: translate(-50%);
  background: none;
 }
+.brands{
+position: relative;
+top: 150px;
+}
+.submit:hover{
+ background: var(--color-scan2);
+ border: 0;
+}
+
+
