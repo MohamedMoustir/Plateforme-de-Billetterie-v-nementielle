@@ -7,7 +7,7 @@ body{
     padding: 0;
     font-family: "Prompt", sans-serif;
     color: white;
-    height: 2000px;
+    height: 400px;
 }
 *{
     box-sizing:border-box;
@@ -304,4 +304,45 @@ border-radius: 50px;
 }
 .blog p{
     color: #ddd;
+}
+.continer-footer{
+    background: var(--color-scan);
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0;
+    width: 100%;
+    padding:20px 100px;
+    gap: 60px;
+}
+.continer-footer p{
+    width:80%;
+    line-height: 20px;
+}
+.plan {
+    width: 20%;
+}
+.press{
+    width: 20%;
+
+}
+.search{
+    padding: 20px 55px;
+    border-radius:50px ;
+    border: 0;
+    outline: 0;
+    position: relative;
+}
+
+.submit{
+    position:absolute;
+     width: 90px;
+     height: 40px;
+    border-radius:50px ;
+    color: white;
+    background: var(--color-btn);
+    border: 0;
+    outline: 0;
+    right: 12%;
+    margin-top: 0.5%;
+
 }
