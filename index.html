@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <!-- link fonts -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style/media.css">
 
     <title>Home</title>
 </head>
@@ -15,21 +15,24 @@
 <body>
     <header id="continer">
         <nav>
-                   <div class="continer-head">
-            <div class="logo">
-                <img src="img/logo.png" alt="">
+            <div class="continer-head">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="contine-ul">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="Speakers.html">Speakers</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <a href="login.html">Login</a>
+                </div>
             </div>
-            <div class="contine-ul">
-                <ul>
-                    <li class="active"><a href="index.html" >Home</a></li>
-                    <li><a href="Speakers.html">Speakers</a></li>
-                    <li><a href="About.html">About</a></li>
-                </ul>
-            </div>
-            <div class="login">
-                <a href="login.html">Login</a>
-            </div>
-        </div>
+        </nav>
+
+
         <div class="contine-home">
             <div class="imag-pra">
                 <img src="./img/pngguru 2.png" alt="">
@@ -44,20 +47,19 @@
                 </div>
             </div>
         </div>
-    </nav>
- 
+
     </header>
     <section>
         <div class="smoall-card">
             <div>
                 <p>Search Event</p>
-             <input type="search" name="" id="" placeholder="Konser Jazz">
-            
+                <input type="search" name="" id="" placeholder="Konser Jazz">
+
             </div>
             <div>
                 <p>Place</p>
-              <input type="text" placeholder="Indonesia">
-                
+                <input type="text" placeholder="Indonesia">
+
             </div>
             <div>
                 <p>Time</p>
@@ -66,7 +68,7 @@
             </div>
         </div>
     </section>
- 
+
     <section>
 
         <div class="cards">
@@ -74,29 +76,30 @@
                 <h1>Upcoming Events</h1>
             </div>
             <div class="Category">
-                <select id="slect" >
-                    <option >Weekdays</option>
-                    <option >Deployed Mouse</option>
-                    <option >Deployed Keyboards</option>
-                    <option >Deployed Monitors</option>
-                    <option >Deployed Laptops</option>
+                <select id="slect">
+                    <option>Weekdays</option>
+                    <option>Deployed Mouse</option>
+                    <option>Deployed Keyboards</option>
+                    <option>Deployed Monitors</option>
+                    <option>Deployed Laptops</option>
                 </select>
-                <select id="slect" >
-                    <option >Event Type </option>
-                    <option >Deployed Mouse</option>
-                    <option >Deployed Laptops</option>
+                <select id="slect">
+                    <option>Event Type </option>
+                    <option>Deployed Mouse</option>
+                    <option>Deployed Laptops</option>
                 </select>
-                <select id="slect" >
-                    <option >Any Category</option>
-                    <option >Deployed Mouse</option>
-                    <option >Deployed Keyboards</option>
-                    <option >Deployed Monitors</option>
-                    
+                <select id="slect">
+                    <option>Any Category</option>
+                    <option>Deployed Mouse</option>
+                    <option>Deployed Keyboards</option>
+                    <option>Deployed Monitors</option>
+
                 </select>
             </div>
 
         </div>
-        <div class="cards-img">
+        <section>
+                   <div class="cards-img">
             <div class="continer-items">
 
                 <img src="./img/Rectangle 12 (1).png" alt="">
@@ -110,7 +113,7 @@
                     <div class="item1-text">
                         <h4>Wonder Girls 2010 Wonder Girls World Tour San Francisco</h5>
                             <p>We’ll get you directly seated and inside for you to enjoy the show.</p>
-                            
+
                     </div>
                 </div>
             </div>
@@ -212,7 +215,7 @@
         </div>
         <button class="load-more"> Load More</button>
         <div>
-            
+
     </section>
 
     <div class="brands">
@@ -226,12 +229,12 @@
 
             <img src="./img/image 16.png" alt="">
             <img src="./img/image 5.png" alt="">
-            <img src="./img/image 4.png" alt="">
-            <img src="./img/image 14.png" alt="">
-            <img src="./img/image 15.png" alt="">
+            <img src="./img/image 4.png" alt="" class="youtube">
+            <img src="./img/image 14.png" alt="" class="youtube">
+            <img src="./img/image 15.png" alt="" >
 
         </div>
-    </section> 
+    </section>
     <section>
         <div class="blog">
             <h1>Blog</h1>
@@ -241,18 +244,24 @@
         <div class="continer-bolg">
             <div class="blog-card">
                 <img src="./img/Rectangle 14 (1).png" alt="">
-                <p>6 Strategies to Find Your Conference Keynote and Other Speakers</p>
+                <div>
+                    <p>6 Strategies to Find Your Conference Keynote and Other Speakers</p>
                 <p>12 Mar - Jhon Doe</p>
+                </div>
             </div>
             <div class="blog-card">
                 <img src="./img/Rectangle 14 (2).png" alt="">
-                <p>How Successfully Used Paid Marketing to Drive Incremental Ticket Sales</p>
+                <div>
+                    <p>How Successfully Used Paid Marketing to Drive Incremental Ticket Sales</p>
                 <p>12 Mar - Jhon Doe</p>
+                </div>
             </div>
             <div class="blog-card">
                 <img src="./img/Rectangle 14.png" alt="">
-                <p>Introducing Workspaces: Work smarter, not harder</p>
+                <div>
+                    <p>Introducing Workspaces: Work smarter, not harder</p>
                 <p>12 Mar - Jhon Doe</p>
+                </div>
             </div>
         </div>
 
@@ -283,18 +292,32 @@
                 <p>Terms</p>
 
             </div>
-            <div>
+            <div class="last-form">
                 <h3>Stay in the loop</h3>
                 <p>Join our mailing list to stay in the loop with our newest for Event and concert</p>
-                <input type="search" value="Enter your email.." class="search search1">
+                <input type="search" placeholder="Enter your email.." class="search search1">
                 <input type="submit" class="submit submit1" value="Subscibe">
             </div>
         </div>
     </footer>
     <div class="copy">
-        <hr>
+
         moustir&copy;2024
     </div>
 </body>
+<script>
+    let continer_head=document.getElementsByClassName(".continer-head") 
+console.log(continer_head);
 
+
+window.onscroll=function(){
+    if (scrollY >= 100) {
+        continer_head.style.position="fixed";
+    }else{
+        continer_head.style.display="none"
+
+    }
+
+}
+</script>
 </html>
