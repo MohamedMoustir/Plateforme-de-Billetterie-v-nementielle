@@ -1,6 +1,6 @@
 @font-face {
     font-family: moustir;
-    src: url("dmsans.ttf");
+    src: url("./img/dmsans.ttf");
 }
 :root{
     --color-p:#fbf9f9c6;
@@ -116,7 +116,6 @@ input{
 #email::placeholder,
 #password::placeholder{
     position: absolute;
-    /* left: 6%; */
 }
 #continue{
     background: var(--color-btn);
@@ -146,4 +145,15 @@ border-radius: 7px;
 }
 form p{
     color: #6c6969;
+}
+#continer4{
+    margin: 0 auto;
+    height: 100vh;
+    background: url(./img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  
+    background-position: center;
+   
+
+     
 }
