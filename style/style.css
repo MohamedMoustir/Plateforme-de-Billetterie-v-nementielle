@@ -27,12 +27,7 @@ body {
     --color-scan3: #3D37F1;
     --color-scan4: #EEE1FF;
 }
-na{
-    position: absolute;
-    position: sticky;
-    top: 0;
 
-}
 #continer {
 
     margin: 0 auto;
@@ -81,13 +76,14 @@ na{
 
 .contine-ul ul li a:hover {
 
-    background: var(--color-btn);
+    background: white;
     color: white;
+   
 
 }
 
 ul li a.active {
-    color: var(--color-btn);
+    color: white;
 }
 
 .login a.active {

@@ -223,8 +223,8 @@ transform: translate(-50%);
         width: 100%;
     }
     .about{
-        display: block;
-        width: 100%;
+       
+        width: 90%;
     }
 }
 
@@ -310,6 +310,10 @@ transform: translate(-50%);
         right: 30%;
         top: 4%;
         font-size: 20px;
+    }
+    .about{
+        display: block;
+        width: 100%;
     }
     
 }

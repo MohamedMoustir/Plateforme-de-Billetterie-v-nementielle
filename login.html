@@ -127,9 +127,12 @@ let ul=document.querySelector("ul");
 
 function CloseMun(){
     ul.style.display="none";
+    body.style.filter="blur(0)"
 }
 function OpenMun(){
-    ul.style.display="block"
+    ul.style.display="block";
+    body.style.filter="blur(3px)"
+
 
 }
 
