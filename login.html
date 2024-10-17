@@ -33,12 +33,12 @@
                 </div>
             </div>
             <i class="fa-solid fa-bars icon-open" onclick="OpenMun()"></i>
-            <div class="contine-home">
+            <div class="contine-home login-head">
                 <div class="text-btn1">
                     <h1>Log In</h1>
                     <p>Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop
                         recording.</p>
-                    <div class="btn">
+                    <div class="btn btn-head">
 
                         <button class="one-cl">Learn More</button>
                     </div>
@@ -119,5 +119,32 @@
         moustir&copy;2024
     </div>
 </body>
+<script>
+    let icone_open=document.querySelector(".icon-open");
+let icone_close=document.querySelector(".icon-close");
+let ul=document.querySelector("ul");
 
+
+function CloseMun(){
+    ul.style.display="none";
+}
+function OpenMun(){
+    ul.style.display="block"
+
+}
+
+//     let continer_head=document.getElementsByClassName(".continer-head") 
+// console.log(continer_head);
+
+
+// window.onscroll=function(){
+//     if (scrollY >= 100) {
+//         continer_head.style.position="fixed";
+//     }else{
+//         continer_head.style.display="none"
+
+//     }
+
+// }
+</script>
 </html>

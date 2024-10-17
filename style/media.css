@@ -1,4 +1,3 @@
-
 :root {
     --color-p: #fbf9f9c6;
     --color-btn: #F5167E;
@@ -7,18 +6,76 @@
     --color-scan3: #3D37F1;
     --color-scan4: #EEE1FF;
 }
-@media (min-width: 1069px) {
-    .icon-open{
-display: none;
+
+@media (mix-width: 1069px) {
+    .btn-head {
+        position: absolute;
+left: 50%;
+transform: translate(-50%);
+        display: flex;
+        
+    }
+
+    .btn button {
+        width: 102px;
+        height: 45px;
+    }
+
+    .imag-pra img {
+        width: 440px;
+        height: 380px;
+    }
+
+    .icon-open {
+        position: absolute;
+        top: -100px;
+        display: none;
+
+    }
+
+    .icon-close {
+        position: absolute;
+
+        top: -100px;
+
+        display: none;
     }
     
-    .icon-close{
+    .load-more {
+        top: 290%;
+    }
+    .smoall-card {
+      
+        max-width: 1000px;
+        
+    }
+    .submit{
+        right: 9%;
+         
+    }
+}
+
+@media (min-width: 1100px) {
+    .icon-open {
+        position: absolute;
+        top: -100px;
+        display: none;
+
+    }
+
+    .icon-close {
+        position: absolute;
+
+        top: -100px;
+
         display: none;
     }
 }
+
+
 @media (max-width: 1068px) {
-    .contine-ul ul{
-        display: block;
+    .contine-ul ul {
+        display: none;
         position: absolute;
         left: 50%;
         transform: translate(-50%);
@@ -28,165 +85,221 @@ display: none;
         top: 15%;
         z-index: 1;
         padding: 85px 0;
-      transition: 1s;
-    
+
+        transition: 1s;
+
     }
-    .contine-ul ul li a:hover{
+
+    .contine-ul ul li a:hover {
         color: var(--color-scan);
     }
-    .icon-open{
+
+    .icon-open {
         position: absolute;
-        right: 20%;
-        top: 2.8%;
-        font-size: 40px;
+        right: 19%;
+        top: 4%;
+        font-size: 20px;
         border: 1px solid bisque;
         padding: 5px 8px;
         color: bisque;
-       display: flex;
+        display: flex;
     }
-    .icon-close{
+
+    .login a {
+        padding: 10px 20px;
+    }
+
+
+    .icon-close {
         position: absolute;
         top: 8px;
         right: 13px;
     }
-    .login a{
-        
+
+    .login a {
+
         right: 2%;
     }
-    .cards-img{
-      
-        grid-template-columns: repeat(2,1fr);
-        margin-top: 30px;
-       
-    }
-    .continer-bolg {
-        grid-template-columns: repeat(2,1fr);
-    gap:20% 0 ;
-    height: 100vh;
 
-  }
-    .imag-pra img{
-width: 400px;
-height: 370px;
+    .cards-img {
+
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+
     }
-    .btn button{
+
+    .continer-bolg {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20% 0;
+        height: 100vh;
+
+    }
+
+    .imag-pra img {
+        width: 400px;
+        height: 370px;
+    }
+
+    .btn button {
         width: 140px;
     }
-    .smoall-card{
-       max-width: 80%;
+
+    .smoall-card {
+        max-width: 80%;
     }
-    .smoall-card input{
+
+    .smoall-card input {
         width: 80%;
     }
+
     .logo-you {
-       grid-template-columns: repeat(3,1fr);
-        
-    
+        grid-template-columns: repeat(3, 1fr);
+
+
     }
+
     .search,
-.search1 {
-    
-    display: none;
+    .search1 {
+
+        display: none;
+    }
+
+    .search1 {
+        display: none;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .title-cards h1 {
+        text-align: center;
+    }
+
+    .Category {
+        display: block;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imag-pra img {
+        display: none;
+    }
+
+    .load-more {
+        top: 350%;
+    }
+
+    .text-btn {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
+        top: 30%;
+        flex-wrap: wrap;
+    }
+
+    .last-form {
+        display: none;
+    }
+
+    .youtube {
+        display: none;
+    }
+
+    .submit1,
+    .submit {
+        display: none;
+    }
 }
 
-.search1 {
-  display: none;
-}
-.cards {
-    display: block;
-}
-.title-cards h1{
-    text-align: center;
-}
-.Category {
-    display: block;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-}
-.imag-pra img{
-    display: none;
-}
-.load-more {
-    top:330% ;
-}
-.text-btn{
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    width: 100%;
-    top: 30%;
-    flex-wrap: wrap;
-}
-.last-form{
-    display: none;
-}
-.youtube{
-    display: none;
-}
-  }
-  
 /* media 626 */
-  @media (max-width: 626px) {
-    .cards-img{
-      
-        grid-template-columns: repeat(1,1fr);
+@media (max-width: 626px) {
+    .cards-img {
+
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 30px;
-       
+
     }
+
     .continer-bolg {
-        grid-template-columns: repeat(1,1fr);
-    gap:20% 0 ;
-    height: 200vh;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20% 0;
+        height: 200vh;
 
-  }
-  .logo-you {
-    grid-template-columns: repeat(1,1fr);
-     flex-wrap: wrap;
-   
- 
- }
- .load-more {
-    top:540% ;
-}
-.smoall-card {
-height: 140px;
-max-width: 400px;
-}
-.continer-footer {
-   
-    padding: 20px 60px;
-    gap: 20px;
-}
-.brands{
-    height: 50vh;
-}
-
-.icon-open{
-    right: 28%;
-    
-}
-   }
-/* media 380px */
-   @media (max-width: 380px) {
-    .brands{
-        height: 60vh;
     }
+
     .logo-you {
-      display: none;
-     
-     }
-     .continer-footer {
-   display: block;
+        grid-template-columns: repeat(1, 1fr);
+        flex-wrap: wrap;
+
+
+    }
+
+    .load-more {
+        top: 540%;
+    }
+
+    .smoall-card {
+        height: 140px;
+        max-width: 400px;
+    }
+
+    .continer-footer {
+
+        padding: 20px 60px;
+        gap: 20px;
+    }
+
+    .brands {
+        height: 50vh;
+    }
+
+    .login a {
+        padding: 10px 20px;
+    }
+
+    .icon-open {
+        right: 23%;
+        top: 4%;
+        font-size: 20px;
+    }
+   .btn-head{
+    display: flex;
+   }
+
+}
+
+/* media 380px */
+@media (max-width: 380px) {
+    .brands {
+        height: 80vh;
+    }
+
+    .logo-you {
+        display: none;
+
+    }
+
+    .continer-footer {
+        display: block;
         padding: 20px 10px;
         gap: 10px;
-       
+
     }
-    
-.icon-open{
-    right: 30%;
-    
+
+    .login a {
+        padding: 10px 20px;
+    }
+
+    .icon-open {
+        right: 30%;
+        top: 4%;
+        font-size: 20px;
+    }
+    .btn-head button{
+       padding: 20px 40px
+    }
 }
-    
-   }
