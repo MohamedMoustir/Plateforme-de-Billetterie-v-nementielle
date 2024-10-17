@@ -1,6 +1,57 @@
+
+:root {
+    --color-p: #fbf9f9c6;
+    --color-btn: #F5167E;
+    --color-scan: #242565;
+    --color-scan2: #1D275F;
+    --color-scan3: #3D37F1;
+    --color-scan4: #EEE1FF;
+}
+@media (min-width: 1069px) {
+    .icon-open{
+display: none;
+    }
+    
+    .icon-close{
+        display: none;
+    }
+}
 @media (max-width: 1068px) {
     .contine-ul ul{
         display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        background: var(--color-btn);
+        width: 70%;
+        top: 15%;
+        z-index: 1;
+        padding: 85px 0;
+      transition: 1s;
+    
+    }
+    .contine-ul ul li a:hover{
+        color: var(--color-scan);
+    }
+    .icon-open{
+        position: absolute;
+        right: 20%;
+        top: 2.8%;
+        font-size: 40px;
+        border: 1px solid bisque;
+        padding: 5px 8px;
+        color: bisque;
+       display: flex;
+    }
+    .icon-close{
+        position: absolute;
+        top: 8px;
+        right: 13px;
+    }
+    .login a{
+        
+        right: 2%;
     }
     .cards-img{
       
@@ -76,7 +127,7 @@ height: 370px;
 }
   }
   
-
+/* media 626 */
   @media (max-width: 626px) {
     .cards-img{
       
@@ -91,16 +142,51 @@ height: 370px;
 
   }
   .logo-you {
-    grid-template-columns: repeat(2,1fr);
-     
+    grid-template-columns: repeat(1,1fr);
+     flex-wrap: wrap;
+   
  
  }
  .load-more {
-    top:520% ;
+    top:540% ;
 }
 .smoall-card {
 height: 140px;
 max-width: 400px;
 }
+.continer-footer {
+   
+    padding: 20px 60px;
+    gap: 20px;
+}
+.brands{
+    height: 50vh;
+}
 
+.icon-open{
+    right: 28%;
+    
+}
+   }
+/* media 380px */
+   @media (max-width: 380px) {
+    .brands{
+        height: 60vh;
+    }
+    .logo-you {
+      display: none;
+     
+     }
+     .continer-footer {
+   display: block;
+        padding: 20px 10px;
+        gap: 10px;
+       
+    }
+    
+.icon-open{
+    right: 30%;
+    
+}
+    
    }

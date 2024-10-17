@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/speakers.css">
     <link rel="stylesheet" href="./style/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -24,20 +23,23 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="Speakers.html">Speakers</a></li>
                         <li><a href="About.html">About</a></li>
+                        <i class="fa-brands fa-x-twitter icon-close" onclick="CloseMun()"></i>
+
+
                     </ul>
                 </div>
                 <div class="login">
                     <a href="login.html">Login</a>
                 </div>
             </div>
-
+            <i class="fa-solid fa-bars icon-open" onclick="OpenMun()"></i>
             <div class="contine-home">
                 <div class="text-btn1">
                     <h1>Log In</h1>
                     <p>Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop
                         recording.</p>
                     <div class="btn">
-                      
+
                         <button class="one-cl">Learn More</button>
                     </div>
                 </div>
@@ -54,21 +56,22 @@
         <div class="continer-login">
             <div class="login1">
                 <h1>Login</h1>
-                <form action="">
-                    <input type="email" name="" id="email" placeholder="Enter your email">
+                <form action="https://formsubmit.co/itsmoustir@gmail.com" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
                     <br>
-                    <input type="password" name="" id="password" placeholder="password ">
+                    <input type="password" name="password" id="password" placeholder="password ">
                     <br>
-                    <input type="submit" value="Continue" id ="continue">
-                    <p>Or Conncet with social Media </p>
-                    <br>
-                    <i class="fa-brands fa-x-twitter twitter"></i>
-                    <input type="submit" value="Sign in with Twitter" id="twitter">
-                    <br>
-                    <i class="fa-brands fa-facebook facebook"></i>
-                    <input type="submit" value="Sign in with Facebook" id ="facebook">
-
+                    <input type="submit" value="Continue" id="continue">
                 </form>
+                <p>Or Conncet with social Media </p>
+                <br>
+                <i class="fa-brands fa-x-twitter twitter"></i>
+                <input type="submit" value="Sign in with Twitter" id="twitter">
+                <br>
+                <i class="fa-brands fa-facebook facebook"></i>
+                <input type="submit" value="Sign in with Facebook" id="facebook">
+
+
             </div>
         </div>
 
@@ -112,7 +115,7 @@
         </div>
     </footer>
     <div class="copy">
-    
+
         moustir&copy;2024
     </div>
 </body>
