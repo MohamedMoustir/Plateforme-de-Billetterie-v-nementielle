@@ -586,6 +586,10 @@ body {
 .more-icon i {
     position: relative;
     bottom: 25px;
+    color: #378EF1;
+}
+.more-icon p{
+     color: #378EF1;
 }
 
 .item2 h2 {
