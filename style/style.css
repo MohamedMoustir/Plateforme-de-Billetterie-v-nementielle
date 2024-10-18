@@ -5,15 +5,16 @@
     src: url("../img/dmsans.ttf");
 }
 
-
 body {
     margin: 0;
     padding: 0;
     color: white;
     height: 10px;
-    
     font-family: moustir;
+    
 }
+
+
 
 * {
     box-sizing: border-box;
@@ -77,17 +78,18 @@ body {
 .contine-ul ul li a:hover {
 
     background: white;
-    color: white;
+    color: var(--color-btn);
    
 
 }
 
 ul li a.active {
-    color: white;
+    color: var(--color-scan3);
 }
 
 .login a.active {
-    color: var(--color-btn);
+    color: var(--color-scan);
+    background: white;
 }
 .contine-ul ul li {
     list-style: none;
@@ -338,7 +340,11 @@ hr {
     transform: translate(-50%);
     background: none;
 }
-
+.load-more:hover{
+  background-color: var(--color-btn);
+  border: 0;
+  color: white;
+}
 .brands {
     text-align: center;
     height: 252px;
