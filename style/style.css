@@ -13,9 +13,6 @@ body {
     font-family: moustir;
     
 }
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -117,6 +114,7 @@ ul li a.active {
     width: 776px;
     height: 488px;
 }
+
 
 .contine-home{
     display: flex;
